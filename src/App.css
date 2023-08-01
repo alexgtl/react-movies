@@ -1,0 +1,46 @@
+html,
+body {
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+}
+
+.movies-form {
+  padding: 32px 0;
+  display: flex;
+  gap: 16px;
+}
+
+.movies-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 26px;
+  list-style: none;
+}
+
+.movie-card {
+  text-align: center;
+  position: relative;
+}
+
+.movie-title {
+  font-size: 16px;
+}
